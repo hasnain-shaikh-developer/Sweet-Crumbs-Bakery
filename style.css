@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+:root{--cream:#fbf8ff;--paper:#fff;--beige:#ece4f4;--pink:#e85d9e;--pink-light:#fce7f2;--brown:#38264f;--brown-2:#563b77;--gold:#9b61c4;--muted:#766b82;--line:#e7dced;--green:#287b56;--shadow:0 16px 48px rgba(56,38,79,.12)}
+body{background:#fff;color:var(--brown)}
+.announcement{background:#4b3270;color:#fff}
+.announcement-note{color:#f7d8ec}.announcement-note span{color:#ff85bc}
+.site-header{background:rgba(255,255,255,.97);border-bottom-color:#eadff1}
+.brand-logo{width:52px;height:52px;object-fit:contain;flex:none}
+.brand-name{color:#4b3270}
+.brand-name small{color:#9973ae}
+.brand-mark{display:none}
+.main-nav a{color:#4b3270}
+.main-nav a:after{background:#e85d9e}
+.bag-link{border-color:#e9dcec;color:#563b77}
+.cart-count{background:#e85d9e;color:#fff}
+.button-dark{background:#4b3270;color:#fff}
+.button-dark:hover{background:#37234f}
+.button-outline{border-color:#a279bd;color:#4b3270}
+.button-light{background:#fff;color:#4b3270}
+.eyebrow{color:#ad4f91}
+.text-link{border-color:#e85d9e;color:#4b3270}
+.section-head h2,.page-title,.story-title,.hero h1,.promo-copy h2{color:#40285f}
+.hero-copy{background:#f5eefb}
+.hero h1 em{color:#d94f91}
+.hero-note{background:#fff;color:#4b3270}
+.category-card:after{background:linear-gradient(0deg,rgba(49,28,69,.78),transparent 65%)}
+.image-tag{background:#e85d9e;color:#fff}
+.icon-add{background:#4b3270;color:#fff}
+.icon-add:hover{background:#e85d9e}
+.page-hero{background:#f5eefb}
+.filter-pill.active,.filter-pill:hover{background:#4b3270;border-color:#4b3270;color:#fff}
+.product-card,.quote-card,.contact-card,.order-summary{border-color:#ecdfef}
+.product-card:hover{box-shadow:0 14px 36px rgba(56,38,79,.14)}
+.promo-banner{background-color:#563b77}
+.site-footer{background:#38264f}
+.brand-light .brand-name{color:#fff}.brand-light .brand-name small{color:#eac4df}
+.floating-wa{background:#e85d9e}
+/* Kitty Cafe-inspired bakery palette and playful logo styling */
+:root{--cream:#fbf8ff;--paper:#fff;--beige:#ece4f4;--pink:#e85d9e;--pink-light:#fce7f2;--brown:#38264f;--brown-2:#563b77;--gold:#9b61c4;--muted:#766b82;--line:#e7dced;--green:#287b56;--shadow:0 16px 48px rgba(56,38,79,.12)}
+body{background:#fff;color:var(--brown)}
+.announcement{background:#4b3270;color:#fff}.announcement-note{color:#f7d8ec}.announcement-note span{color:#ff85bc}
+.site-header{background:rgba(255,255,255,.97);border-bottom-color:#eadff1}
+.brand-logo{width:52px;height:52px;object-fit:contain;flex:none}.brand-name{color:#4b3270}.brand-name small{color:#9973ae}.brand-mark{display:none}
+.main-nav a{color:#4b3270}.main-nav a:after{background:#e85d9e}.bag-link{border-color:#e9dcec;color:#563b77}.cart-count{background:#e85d9e;color:#fff}
+.button-dark{background:#4b3270;color:#fff}.button-dark:hover{background:#37234f}.button-outline{border-color:#a279bd;color:#4b3270}.button-light{background:#fff;color:#4b3270}
+.eyebrow{color:#ad4f91}.text-link{border-color:#e85d9e;color:#4b3270}
+.section-head h2,.page-title,.story-title,.hero h1,.promo-copy h2{color:#40285f}.hero-copy{background:#f5eefb}.hero h1 em{color:#d94f91}.hero-note{background:#fff;color:#4b3270}
+.category-card:after{background:linear-gradient(0deg,rgba(49,28,69,.78),transparent 65%)}.image-tag{background:#e85d9e;color:#fff}.icon-add{background:#4b3270;color:#fff}.icon-add:hover{background:#e85d9e}
+.page-hero{background:#f5eefb}.filter-pill.active,.filter-pill:hover{background:#4b3270;border-color:#4b3270;color:#fff}
+.product-card,.quote-card,.contact-card,.order-summary{border-color:#ecdfef}.product-card:hover{box-shadow:0 14px 36px rgba(56,38,79,.14)}.promo-banner{background-color:#563b77}
+.site-footer{background:#38264f}.brand-light .brand-name{color:#fff}.brand-light .brand-name small{color:#eac4df}.floating-wa{background:#e85d9e}
+@media(max-width:700px){.brand-logo{width:44px;height:44px}.main-nav{background:#fbf8ff}.main-nav a{color:#4b3270}}
+/* Reference-inspired storefront shell: purple cafe header, search, navigation and hero banner. */
+.announcement{display:none}
+.site-header{background:#4b3270;color:#fff;border:0;box-shadow:0 5px 22px rgba(45,26,66,.15)}
+.nav-wrap{width:min(1320px,calc(100% - 48px));height:auto;min-height:112px;display:grid;grid-template-columns:auto minmax(240px,1fr) auto;grid-template-rows:64px 48px;column-gap:30px;align-items:center}
+.brand{grid-column:1;grid-row:1 / span 2;min-width:0;gap:9px}.brand-logo{width:78px;height:78px;padding:3px;border-radius:50%;background:#fff}
+.brand-name{color:#fff;font-family:var(--sans);font-size:20px;font-weight:800;letter-spacing:-.04em}.brand-name small{color:#eadcf8;font-size:8px;letter-spacing:.17em}
+.header-search{grid-column:2;grid-row:1;display:flex;align-items:center;max-width:780px;width:100%;justify-self:center;height:40px;border:1px solid rgba(255,255,255,.38);border-radius:24px;background:#b989d8;overflow:hidden}
+.header-search input{width:100%;height:100%;padding:0 18px;border:0;outline:0;background:transparent;color:#fff;font-size:13px}.header-search input::placeholder{color:#fff;opacity:.94}.header-search button{height:100%;width:48px;border:0;background:transparent;color:#fff;font-size:27px}
+.main-nav{grid-column:2;grid-row:2;align-self:stretch;justify-content:center;gap:clamp(16px,3vw,44px)}.main-nav a{color:#fff;font-size:13px;font-weight:700}.main-nav a:after{background:#f17bb8}
+.header-actions{grid-column:3;grid-row:1 / span 2;display:flex;align-items:center;gap:13px}.order-now{display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:4px;background:#e35c9c;color:#fff;font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}.order-now:hover{background:#f07ab4}
+.bag-link{border-color:rgba(255,255,255,.42);color:#fff}.cart-count{background:#e85d9e;color:#fff}
+.hero{position:relative;display:block;min-height:clamp(520px,58vw,690px);overflow:hidden;background:#422b61}
+.hero-photo{position:absolute;inset:0;height:auto;min-height:0}.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 45%}.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(38,20,57,.78),rgba(47,27,66,.37) 53%,rgba(47,27,66,.05))}
+.hero-copy{position:absolute;z-index:2;inset:0 auto 0 max(7vw,calc((100vw - 1180px)/2));width:min(610px,54%);min-height:0;justify-content:center;padding:50px 34px 70px 0;background:transparent;color:#fff}
+.hero-copy .eyebrow{color:#ffd4eb}.hero h1{color:#fff;font-size:clamp(52px,6vw,82px);text-shadow:0 2px 22px rgba(0,0,0,.16)}.hero h1 em{color:#ff9bc8}.hero-copy>p:not(.eyebrow){max-width:520px;color:#fff;font-size:16px}.hero-note{right:24px;bottom:22px;border-left:4px solid #e85d9e;color:#4b3270;box-shadow:0 8px 30px rgba(45,26,66,.2)}
+.hero-bakery:after{display:none}
+@media(max-width:900px){.nav-wrap{column-gap:16px}.brand-logo{width:65px;height:65px}.brand-name{font-size:17px}.main-nav{gap:16px}.main-nav a{font-size:11px}.order-now{padding:10px 12px}}
+@media(max-width:700px){.nav-wrap{width:calc(100% - 30px);min-height:75px;height:75px;display:flex;gap:0;justify-content:space-between}.brand{gap:7px}.brand-logo{width:48px;height:48px}.brand-name{font-size:16px}.brand-name small{font-size:7px}.header-search{position:absolute;top:82px;left:18px;right:18px;width:auto;max-width:none;height:36px;z-index:2}.menu-toggle{display:flex;order:3;margin:0 8px 0 auto;background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.35)}.menu-toggle span{background:#fff}.header-actions{display:flex;order:4;gap:7px}.order-now{display:none}.bag-link{width:38px;height:38px}.main-nav{position:fixed;inset:126px 0 0;z-index:40;display:flex;flex-direction:column;align-items:stretch;gap:0;padding:18px 24px;background:#4b3270;transform:translateX(100%);transition:transform .3s}.main-nav.open{transform:none}.main-nav a{padding:14px 0;border-bottom:1px solid rgba(255,255,255,.18);font:700 21px var(--serif);color:#fff}.hero{min-height:590px;margin-top:48px}.hero-photo{height:100%}.hero-copy{inset:0;width:100%;padding:46px 24px 78px;justify-content:flex-end;background:linear-gradient(0deg,rgba(38,20,57,.7),transparent 75%)}.hero h1{font-size:49px}.hero-copy>p:not(.eyebrow){font-size:13px}.hero-note{right:14px;bottom:13px;padding:10px 13px}}
+.hero-bakery{display:grid;place-items:center;background:radial-gradient(circle at 50% 42%,#fff 0 24%,transparent 25%),linear-gradient(135deg,#efe4fb,#fce7f2 58%,#fff8fd)}
+.hero-bakery>img{width:min(62%,470px);height:auto;max-height:83%;object-fit:contain;filter:drop-shadow(0 22px 24px rgba(75,50,112,.13))}
+.hero-bakery:after{content:"♡  fresh bakes, happy days  ♡";position:absolute;top:9%;right:8%;color:#9b61c4;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+@media(max-width:700px){.hero-bakery>img{width:min(66%,250px);max-height:76%}.hero-bakery:after{top:8%;right:5%;font-size:9px}}
+/* Final brand overrides: keep these after the original site theme. */
+:root{--cream:#fbf8ff;--paper:#fff;--beige:#ece4f4;--pink:#e85d9e;--pink-light:#fce7f2;--brown:#38264f;--brown-2:#563b77;--gold:#9b61c4;--muted:#766b82;--line:#e7dced;--shadow:0 16px 48px rgba(56,38,79,.12)}
+body{background:#fff;color:var(--brown)}.announcement{background:#4b3270;color:#fff}.announcement-note{color:#f7d8ec}.announcement-note span{color:#ff85bc}.site-header{background:rgba(255,255,255,.97);border-bottom-color:#eadff1}
+.brand-logo{width:52px;height:52px;object-fit:contain;flex:none}.brand-name{color:#4b3270}.brand-name small{color:#9973ae}.brand-mark{display:none}.main-nav a{color:#4b3270}.main-nav a:after{background:#e85d9e}.bag-link{border-color:#e9dcec;color:#563b77}.cart-count{background:#e85d9e;color:#fff}
+.button-dark{background:#4b3270;color:#fff}.button-dark:hover{background:#37234f}.button-outline{border-color:#a279bd;color:#4b3270}.button-light{background:#fff;color:#4b3270}.eyebrow{color:#ad4f91}.text-link{border-color:#e85d9e;color:#4b3270}
+.section-head h2,.page-title,.story-title,.hero h1,.promo-copy h2{color:#40285f}.hero-copy{background:#f5eefb}.hero h1 em{color:#d94f91}.hero-note{background:#fff;color:#4b3270}.category-card:after{background:linear-gradient(0deg,rgba(49,28,69,.78),transparent 65%)}
+.image-tag{background:#e85d9e;color:#fff}.icon-add{background:#4b3270;color:#fff}.icon-add:hover{background:#e85d9e}.page-hero{background:#f5eefb}.filter-pill.active,.filter-pill:hover{background:#4b3270;border-color:#4b3270;color:#fff}
+.product-card,.quote-card,.contact-card,.order-summary{border-color:#ecdfef}.product-card:hover{box-shadow:0 14px 36px rgba(56,38,79,.14)}.promo-banner{background-color:#563b77}.site-footer{background:#38264f}.brand-light .brand-name{color:#fff}.brand-light .brand-name small{color:#eac4df}.floating-wa{background:#e85d9e}
+@media(max-width:700px){.brand-logo{width:44px;height:44px}.main-nav{background:#fbf8ff}.main-nav a{color:#4b3270}}
